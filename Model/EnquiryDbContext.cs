@@ -12,7 +12,7 @@ namespace Enquiry.API.Model
         // 6 added below DbSet next add new API controller 
         public DbSet<EnquiryModel> EnquiryModel { get; set; }
         public DbSet<EnquiryStatus> EnquiryStatus { get; set; }
-        public DbSet<EnquiryType> EnquiryType { get; set; } 
-
+         public DbSet<EnquiryType> EnquiryType { get; set; } 
+        
     }
 }
